@@ -6,7 +6,7 @@ import { Article, Avatar } from "../assets/images"
 const Card = () => {
   return (
     <section className="flex justify-center items-center max-sm:scale-90">
-        <div className="flex flex-col bg-white py-5 px-5 rounded-3xl main-box-shadow">
+        <div className="flex flex-col bg-white py-5 px-5 rounded-3xl main-box-shadow border">
             <img 
                 src={Article}
                 alt="article"
